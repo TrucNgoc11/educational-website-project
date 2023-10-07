@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study TrucNgoc</title>
+    <!-- custom css link  -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header  -->
+    <header>
+        <a href="#" class="logo"> 
+            <img src="image/logo2.png">
+        </a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button class="btnLogin-popup">Login</button>
+        </ul>
+        <div class="header-icons">
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-heart' ></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+    </header>
+    <!-- start home section  -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h6>Best online learning platform</h6>
+            <h1>Accessible Online Courses For All</h1>
+            <p>Own your future working on Big Tech online</p>
+            <div class="latter">
+                <form>
+                    <input type="email" placeholder="Write Your Email" required>
+                    <input type="submit" value="Let's Start" required>
+                </form>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image/Technology.png">
+        </div>
+    </section>
+     <!-- start Login section  -->
+     <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+     </div>
+
+    <!-- start container section  -->
+    <section class="container">
+        <div class="container-box">
+            <div class="container-img">
+                <img src="image/con1.png">
+            </div>
+            <div class="container-text">
+                <h4>1K+</h4>
+                <p>Online Courses</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="image/con2.png">
+            </div>
+            <div class="container-text">
+                <h4>5K+</h4>
+                <p>Online Students</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="image/con3.png">
+            </div>
+            <div class="container-text">
+                <h4>500+</h4>
+                <p>Mentors</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="image/con4.png">
+            </div>
+            <div class="container-text">
+                <h4>4K+</h4>
+                <p>Certificates</p>
+            </div>
+        </div>
+    </section>
+    <!-- start categories section  -->
+    <section class="categories" id="categories">
+        <div class="center-text">
+            <h5>CATEGORIES</h5>
+            <h2>Popular Categories</h2>
+        </div>
+
+        <div class="categories-content">
+            <div class="box">
+                <img src="image/CT1.png">
+                <h3>Web Development</h3>
+                <p>10 Courses</p>
+            </div>
+
+            <div class="box">
+                <img src="image/CT2.png">
+                <h3>Programming Languages</h3>
+                <p>20 Courses</p>
+            </div>
+
+            <div class="box">
+                <img src="image/CT3.png">
+                <h3>Software Engineering</h3>
+                <p>15 Courses</p>
+            </div>
+
+            <div class="box">
+                <img src="image/CT4.png">
+                <h3>Hardware</h3>
+                <p>8 Courses</p>
+            </div>
+
+            <div class="box">
+                <img src="image/CT5.png">
+                <h3>Operating System & Servers</h3>
+                <p>12 Courses</p>
+            </div>
+
+            <div class="box">
+                <img src="image/CT6.png">
+                <h3>Network & Security</h3>
+                <p>15 Courses</p>
+            </div>
+        </div>
+        <div class="main-btn">
+            <a href="#" class="btn">All Categories</a>
+        </div>
+    </section>
+     <!-- start course section  -->
+    <section class="courses" id="courses">
+        <div class="center-text">
+            <h5>COURSES</h5>
+            <h2>Explore Popular Courses</h2>
+        </div>
+
+        <div class="courses-content">
+            <div class="row">
+                <img src="image/c1.jpeg">
+                <div class="courses-text">
+                    <h5>$20.00</h5>
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                    <h6>05 hours 15 minutes</h6>
+                    <div class="rating">
+                        <div class="star">
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                        </div>
+                        <div class="review">
+                            <p>{5 Reviews}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image/c2.jpeg">
+                    <div class="courses-text">
+                        <h5>$20.00</h5>
+                        <h3>The Complete HTML CSS JS Course 2023</h3>
+                        <h6>05 hours 15 minutes</h6>
+                        <div class="rating">
+                            <div class="star">
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                            </div>
+                            <div class="review">
+                                <p>{5 Reviews}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image/c3.jpeg">
+                    <div class="courses-text">
+                        <h5>$20.00</h5>
+                        <h3>The Complete HTML CSS JS Course 2023</h3>
+                        <h6>05 hours 15 minutes</h6>
+                        <div class="rating">
+                            <div class="star">
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                            </div>
+                            <div class="review">
+                                <p>{5 Reviews}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image/c4.png">
+                    <div class="courses-text">
+                        <h5>$20.00</h5>
+                        <h3>The Complete HTML CSS JS Course 2023</h3>
+                        <h6>05 hours 15 minutes</h6>
+                        <div class="rating">
+                            <div class="star">
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                            </div>
+                            <div class="review">
+                                <p>{5 Reviews}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image/c5.png">
+                    <div class="courses-text">
+                        <h5>$20.00</h5>
+                        <h3>The Complete HTML CSS JS Course 2023</h3>
+                        <h6>05 hours 15 minutes</h6>
+                        <div class="rating">
+                            <div class="star">
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                            </div>
+                            <div class="review">
+                                <p>{5 Reviews}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image/c5.png">
+                    <div class="courses-text">
+                        <h5>$20.00</h5>
+                        <h3>The Complete HTML CSS JS Course 2023</h3>
+                        <h6>05 hours 15 minutes</h6>
+                        <div class="rating">
+                            <div class="star">
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                            </div>
+                            <div class="review">
+                                <p>{5 Reviews}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-btn">
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </section>
+    <!-- end courses section  -->
+    <!-- start new courses section -->
+    <section class="courses-n">
+        <h1 class="heading">Our Popular Courses</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c1.jpeg" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon-n">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c2.jpeg" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon-n">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c3.jpeg" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c4.png" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c5.png" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c1.jpeg" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Image/c2.jpeg" alt="">
+                    <h3>The Complete HTML CSS JS Course 2023</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>20 Hours 15 Minutes</p>
+                    <a href="#" class="btn-n">Read More</a>
+                </div>
+                <div class="icon">
+                    <span><i class="fas fa-book"></i>18 modules</span>
+                    <span><i class="fas fa-clock"></i>9 Hours</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end new courses section -->
+    <!-- start cta section  -->
+    <section class="cta">
+        <div class="center-text">
+            <h5>Trusted By </h5>
+            <h2>500+ Leading Universities And Companies</h2>
+        </div>
+
+        <div class="cta-content">
+            <div class="cta-img">
+                <img src="image/u1.png">
+            </div>
+
+            <div class="cta-img">
+                <img src="image/u2.png">
+            </div>
+
+            <div class="cta-img">
+                <img src="image/u3.png">
+            </div>
+
+            <div class="cta-img">
+                <img src="image/u4.png">
+            </div>
+
+            <div class="cta-img">
+                <img src="image/u5.png">
+            </div>
+
+            <div class="cta-img">
+                <img src="image/u6.png">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- start about section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/aboutt.png" alt="">
+        </div>
+        
+        <div class="about-text">
+            <h2>Want to share your knowledge? Join us as a Mentor</h2>
+            <p>High-definition video is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video.</p>
+            <h4>Best Courses</h4>
+            <h5>Top rated Instructors</h5>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- start contact section  -->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <img src="image/logo.png" alt="">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">YouTube</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Instructor</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Ho Chi Minh City, VietNam</a></li>
+                <li><a href="#">engineerpro@gmail.com</a></li>
+                <li><a href="#">096100187</a></li>
+            </div>
+        </div>
+    </section>
+    <div class="last-text">
+        <p>2023 TrucNgoc. All rights reserved.</p>
+    </div>
+    <!-- custom js link  -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+</html>
